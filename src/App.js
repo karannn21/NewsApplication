@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div>
       {/* <Table /> */}
-      <Router>
+      <Router basename="/NewsApplication">
         <Navbar />
         <LoadingBar height={3} color="#f11946" progress={progress} />
 
