@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import News from "./Components/News";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
+import Table from "./Components/Table";
 
 const App = () => {
   const pageSize = 8;
@@ -11,6 +12,7 @@ const App = () => {
 
   return (
     <div>
+      {/* <Table /> */}
       <Router>
         <Navbar />
         <LoadingBar height={3} color="#f11946" progress={progress} />
